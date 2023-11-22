@@ -35,3 +35,9 @@ november = [ 2400, 1800, 1500, 1500, 1500, 1100, 1000, 1000, 1000, 770, 700, 700
 # ▪ importálja a json modult!
 # ▪ készítsen az adatokból szótárat
 # ▪ mentse fájlba data.json néven!
+
+
+import json
+
+with open("data.json", "w") as fájl:
+    json.dump("változás", fájl)

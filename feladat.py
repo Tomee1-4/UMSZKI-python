@@ -10,6 +10,10 @@ tnev = input()
 
 if tnev not in termek:
     print("nincs ilyen termék")
+else:
+    index = termek.index(tnev)
+    print(index)
+
 
 # ▪     Ha igen, akkor állapítsa meg az indexét és írja ki a kiszerelés egységét!
 # ▪     Ha nem, akkor a parancssoron a „Nincs ilyen termék” üzenet jelenjen meg!

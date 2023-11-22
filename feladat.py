@@ -14,7 +14,7 @@ if tnev not in termek:
     print("nincs ilyen termék")
 else:
     index = termek.index(tnev)
-    print(index)
+    print(egyseg[index])
 
 
 december = [ 2550, 1602, 1140, 1620, 1320, 682, 750, 1700, 1000, 693, 651, 686, 805, 702, 600, 582, 798, 648, 522, 605, 550, 567, 286, 350, 351, 250, 154, 135, 50 ]
